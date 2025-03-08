@@ -132,4 +132,29 @@
     width: 20px;
   }
 }
+@media (max-width: 400px) {
+  .repair-wrapper h1 {
+    font-size: 16px;
+    line-height: 22px;
+    text-align: center;
+  }
+  .repair-wrapper p {
+    font-size: 14px;
+  }
+  .repair-img {
+    display: none;
+  }
+  .repair {
+    width: 75%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .repair div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+}
 </style>

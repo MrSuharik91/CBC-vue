@@ -151,5 +151,48 @@
     font-size: 15px;
     line-height: 20px;
   }
+  .consultation-form-wrapper {
+    height: 600px !important;
+    justify-content: center;
+  }
+  .consultation-form-wrapper img {
+    width: 60% !important;
+    margin-bottom: 30px;
+  }
+  .consultation {
+    width: 400px;
+    margin-top: 50px;
+  }
+}
+@media (max-width: 500px) {
+  .trust-wrapper {
+    background-image: none;
+    padding: 0;
+  }
+  .trust-wrapper div {
+    margin-top: 30px;
+    gap: 30px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+  }
+  .trust-wrapper h1 {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  .trust-wrapper img {
+    width: 80px;
+    height: 70px;
+    margin: 0 auto;
+  }
+  .monro {
+    width: 100px !important;
+    height: 60px !important;
+  }
+  .dry {
+    grid-column: span 2;
+  }
 }
 </style>

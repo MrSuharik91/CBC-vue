@@ -153,6 +153,7 @@
     .grid {
       grid-template-columns: 1fr;
       grid-template-rows: 1fr 1fr;
+      width: 300px;
     }
   }
 }
@@ -181,6 +182,22 @@
   }
   .text-offer h1 {
     font-size: 14px;
+  }
+}
+@media (max-width: 400px) {
+  .grid-inner {
+    width: 300px;
+  }
+  .img-2 {
+    width: 100px;
+  }
+  .text-offer p {
+    font-size: 13px;
+    line-height: 18px;
+  }
+  .text-offer h1 {
+    font-size: 14px;
+    line-height: 17px;
   }
 }
 </style>

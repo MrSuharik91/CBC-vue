@@ -141,6 +141,22 @@ input[type="number"]::-webkit-inner-spin-button {
   .chekbox-div {
     display: flex;
   }
+  .consultation {
+    margin-top: 70px;
+  }
+}
+@media (max-width: 400px) {
+  .consultation h1 {
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 40px;
+  }
+  .consultation h2 {
+    font-size: 20px;
+  }
+  .consultation-form-wrapper {
+    width: 300px;
+  }
 }
 </style>
 <script>

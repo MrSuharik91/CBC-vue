@@ -497,4 +497,144 @@ export default {
     font-size: 10px;
   }
 }
+@media (max-width: 600px) {
+  #slick-slide00 h1 {
+    font-size: 18px;
+  }
+  #slick-slide00 p {
+    font-size: 10px;
+  }
+  .slider {
+    width: 400px;
+    padding: 0;
+  }
+  .slick-next,
+  .slick-prev {
+    display: none !important;
+  }
+  #slick-slide02,
+  #slick-slide01 h1 {
+    font-size: 16px;
+    line-height: 26px;
+  }
+  .information-catalog h1 {
+    margin-bottom: 20px;
+  }
+  .grid-wrapper {
+    width: 400px !important;
+    grid-gap: 15px !important;
+  }
+
+  .information-catalog h1 span {
+    font-size: 22px !important;
+  }
+}
+@media (max-width: 400px) {
+  .slick-slide {
+    width: 300px !important;
+  }
+  .slick-initialized {
+    width: 300px;
+  }
+  .catalog {
+    width: 300px;
+  }
+  .catalog-block {
+    width: 300px;
+  }
+  span p {
+    font-size: 13px;
+  }
+  .options {
+    width: 300px;
+  }
+  .information-catalog h1 {
+    width: 300px;
+  }
+  .information-catalog h1 span {
+    font-size: 18px !important;
+    line-height: 26px;
+  }
+  #slick-slide00 {
+    background-size: 170% 100%;
+  }
+  #slick-slide01 {
+    background-size: 125% 100%;
+  }
+  #slick-slide02 {
+    background-size: 100% 100%;
+  }
+  #slick-slide00 h1 {
+    font-size: 15px;
+    line-height: 22px;
+    text-align: center;
+    margin-right: 0;
+  }
+  #slick-slide00 p {
+    margin-bottom: 10px;
+    margin-right: 0;
+    text-align: center;
+    width: 75vw;
+    margin: 0 auto;
+    padding-bottom: 20px;
+    font-size: 14px;
+  }
+  #slick-slide00 button {
+    margin-right: 0;
+    margin: 0 auto;
+  }
+  #slick-slide01 p {
+    margin-bottom: 10px;
+    margin-right: 0;
+    text-align: center;
+    width: 75vw;
+    margin: 0 auto;
+    padding-bottom: 20px;
+    font-size: 14px;
+  }
+  #slick-slide01 button {
+    margin-right: 0;
+    margin: 0 auto;
+  }
+  #slick-slide01 h1 {
+    font-size: 15px;
+    line-height: 22px;
+    text-align: center;
+    margin: 0 auto;
+    padding-bottom: 20px;
+  }
+  #slick-slide02 h1 {
+    font-size: 23px;
+    line-height: 22px;
+    text-align: center;
+    margin: 0 auto;
+    padding-bottom: 20px;
+  }
+  #slick-slide02 button {
+    margin-right: 0;
+    margin: 0 auto;
+  }
+
+  #slick-slide03 h1 {
+    font-size: 23px;
+    line-height: 22px;
+    text-align: center;
+    margin: 0 auto;
+    padding-bottom: 20px;
+  }
+  #slick-slide03 button {
+    margin: 0 auto;
+    width: 260px;
+    font-size: 14px;
+  }
+  #slick-slide03 p {
+    margin-bottom: 10px;
+    margin-right: 0;
+    text-align: center;
+    width: 75vw;
+    margin: 0 auto;
+    padding-bottom: 20px;
+    font-size: 18px;
+  }
+}
 </style>

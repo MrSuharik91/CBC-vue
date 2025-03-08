@@ -218,4 +218,16 @@ p {
     height: 1000px;
   }
 }
+@media (max-width: 400px) {
+  .contact p[data-v-6142b2b7] {
+    font-size: 14px;
+    white-space: wrap;
+  }
+  .footer-wrapper[data-v-6142b2b7] {
+    width: 300px;
+  }
+  .logo[data-v-6142b2b7] {
+    width: 130px;
+  }
+}
 </style>

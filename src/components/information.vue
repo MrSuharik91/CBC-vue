@@ -159,4 +159,35 @@
     height: 30px;
   }
 }
+@media (max-width: 400px) {
+  .grid-wrapper {
+    width: 300px !important;
+  }
+  .grid-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .gap p {
+    font-size: 15px;
+  }
+  .span-2 div img {
+    width: 40px;
+    height: 40px;
+  }
+  .gap h1 {
+    font-size: 20px;
+  }
+  .gap {
+    width: 300px;
+  }
+  .span-2 div {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 20px;
+    justify-items: center;
+    align-items: center;
+  }
+}
 </style>

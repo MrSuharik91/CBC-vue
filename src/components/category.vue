@@ -88,7 +88,7 @@
     </div>
   </div>
 </template>
-<style>
+<style scoped>
 .grid-category {
   width: 75%;
   margin: 0 auto;
@@ -202,12 +202,22 @@
 }
 @media (max-width: 550px) {
   .grid-category {
+    width: 400px;
     display: grid;
-    grid-template-columns: 1fr;
+    grid-template-columns: 400px;
     grid-template-rows: 1fr 1fr 1fr 1fr;
   }
   .img-category {
     width: 50%;
+  }
+}
+@media (max-width: 400px) {
+  .category {
+    width: 300px;
+  }
+  .grid-category {
+    grid-template-columns: 300px;
+    width: 300px;
   }
 }
 </style>

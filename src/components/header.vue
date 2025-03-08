@@ -17,8 +17,6 @@ export default {
     p() {
       if (this.k === true) {
         this.k = false;
-      } else {
-        alert("ajslk");
       }
     },
   },
@@ -383,6 +381,29 @@ input {
   }
 }
 @media (max-width: 600px) {
+  .links-inner {
+    width: 90%;
+    gap: 15px;
+  }
+  .links-inner a {
+    font-size: 10px;
+    text-align: center;
+  }
+  .header-button div {
+    width: 85%;
+    height: 12vh;
+  }
+  .header-button div h1 {
+    font-size: 22px;
+  }
+  .header-button {
+    overflow: hidden;
+    justify-content: space-between;
+  }
+  .exit[data-v-7131493d] {
+    right: 20px;
+    top: 20px;
+  }
   input {
     font-size: 14px;
     margin-right: 20px;
@@ -393,6 +414,19 @@ input {
   .header-inner-3 img {
     width: 13px;
     height: 15px;
+  }
+}
+@media (max-width: 500px) {
+  .header-mini[data-v-7131493d] {
+    width: 400px;
+  }
+}
+@media (max-width: 400px) {
+  .header-mini[data-v-7131493d] {
+    width: 300px;
+  }
+  .wats-up p {
+    display: none;
   }
 }
 </style>

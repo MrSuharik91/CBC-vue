@@ -125,12 +125,33 @@
   }
 }
 @media (max-width: 600px) {
+  .location-wrapper {
+    height: 750px;
+  }
   .location-wrapper h1 {
     font-size: 16px;
   }
   iframe {
     width: 300px;
     height: 300px;
+  }
+}
+@media (max-width: 400px) {
+  .location-wrapper {
+    width: 300px;
+    height: 725px;
+  }
+  .location-wrapper h1 {
+    font-size: 16px;
+    line-height: 23px;
+    margin-bottom: 30px;
+  }
+  .information h2 {
+    font-size: 12px;
+  }
+  .information img {
+    width: 23px;
+    height: 23px;
   }
 }
 </style>

@@ -37,7 +37,7 @@
           <img src="/cagi.png" alt="" />
           <h2>ФГУП «Цаги»</h2>
         </div>
-        <div>
+        <div class="AO">
           <img src="/lii.png" alt="" />
           <h2>
             АО «ЛИИ
@@ -113,7 +113,6 @@
 }
 .customer-wrapper-company img {
   width: 150px;
-  height: 70px;
 }
 @media (max-width: 1100px) {
   .customer-inner h1 {
@@ -135,6 +134,9 @@
   }
 }
 @media (max-width: 750px) {
+  .customer-wrapper-company div {
+    height: auto;
+  }
   .customer-inner button img {
     width: 20px;
   }
@@ -153,21 +155,42 @@
   .customer {
     height: 600px;
   }
+  .customer-wrapper-button {
+    margin-bottom: 30px;
+  }
 }
 @media (max-width: 600px) {
+  .AO {
+    grid-column: span 2;
+  }
   .customer-inner button {
     width: 300px;
     white-space: nowrap;
     font-size: 9px;
   }
-  @media (max-width: 600px) {
-    .customer-wrapper-company {
-      grid-template-columns: 1fr 1fr;
-      grid-template-rows: 1fr 1fr 1fr;
-    }
-    .customer {
-      height: 800px;
-    }
+  .customer-wrapper-company {
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+  }
+  .customer {
+    height: 800px;
+  }
+}
+@media (max-width: 450px) {
+  .customer-wrapper-button {
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+  }
+  .customer-inner h1 {
+    font-size: 22px;
+    text-align: center;
+  }
+  .customer-wrapper-company img {
+    width: 100px;
+  }
+  .customer-inner button {
+    font-size: 12px;
   }
 }
 </style>
