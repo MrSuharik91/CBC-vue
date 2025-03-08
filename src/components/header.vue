@@ -394,13 +394,13 @@ input {
     height: 12vh;
   }
   .header-button div h1 {
-    font-size: 22px;
+    font-size: 18px;
   }
   .header-button {
     overflow: hidden;
     justify-content: space-between;
   }
-  .exit[data-v-7131493d] {
+  .exit {
     right: 20px;
     top: 20px;
   }
@@ -417,12 +417,16 @@ input {
   }
 }
 @media (max-width: 500px) {
-  .header-mini[data-v-7131493d] {
+  .header-mini {
     width: 400px;
+  }
+  .exit {
+    right: 12px;
+    top: 12px;
   }
 }
 @media (max-width: 400px) {
-  .header-mini[data-v-7131493d] {
+  .header-mini {
     width: 300px;
   }
   .wats-up p {

@@ -134,6 +134,9 @@ input[type="number"]::-webkit-inner-spin-button {
     align-items: center;
     flex-direction: column;
   }
+  .hide-text {
+    font-size: 10px;
+  }
   .consultation-form-wrapper .inputs {
     display: flex;
     flex-direction: column;
